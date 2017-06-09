@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Shopping Cart</title>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="./css/styles.css">
+      
+   </head>
+   <body style='background:#b3a7a7'>
+      <nav class="navbar navbar-inverse">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <a class="navbar-brand" href="#"><img class="img-responsive" src="https://production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" alt="" /></a>
+            </div>
+            <ul class="nav navbar-nav">
+               <li style="color:white;font-size:26px;margin-top:5px;">Hangman's Design Studio</li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+               <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+               <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+               <li><a href="#"><span class="glyphicon glyphicon-menu-hamburger"></span></a></li>
+            </ul>
+         </div>
+      </nav>
+      <div class='mycontainer'>
+         <div style="color:white;margin-left:20px;">
+            <h3>Your Shopping Cart</h3>
+         </div>
+         <div id='checkout-items-list' class="panel panel-default checkout-items">   
+         </div>
+         <div class="panel panel-default checkout-cart">
+            <div id='products-count'>
+               
+            </div>
+            <div id='product-name-price' class='products-name-n-price'>
+                
+            </div>
+            <hr>
+            <div id='sub-total' ></div>
+            <button class="btn checkout-btn"><strong>CHECKOUT</strong></button>                   
+         </div>
+      </div>
+      <script src='./js/main.js'>
+               
+      </script>
+   </body>
+</html>
